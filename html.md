@@ -1,8 +1,12 @@
 - cheatsheet...  
 <https://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf>
 
+---
+
 - naming conventions...  
 <https://www.lifewire.com/naming-html-files-3466503>
+
+---
 
 - tutorial...  
 <https://www.youtube.com/watch?v=UB1O30fR-EE&t=154s>
@@ -89,3 +93,19 @@ title="" (the abbreviation expanded)
 - META TAGS (for search engine inspection)  
 name="" (type), such as description, keywords, etc.  
 content="" (actual content)
+
+---
+
+<https://www.reddit.com/r/webdev/comments/8fl5x9/are_html5_semantic_tags_used_to_replace_divs/>
+- semantic tags are basically just divs, but with special purposes to aid machines/programs in interpreting the information they contain.
+- ONLY use divs/span when semantic tags aren't needed for meaning
+
+---
+
+<https://htmldog.com/guides/html/intermediate/spandiv/>
+- span/div apply no meaning at all (compared to other tags)
+- they are instead used in conjunction with css (usning class/id attributes) to group a chunk of code.
+- SPAN (inline) - for a small chunk of html inside a line. e.g. to color specific text within a paragraph.
+- DIV (block) - groups a larger chunk of code (w/ line break before and after)
+
+---
