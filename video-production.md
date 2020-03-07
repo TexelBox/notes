@@ -41,7 +41,9 @@ stereo (2 channel)
 simply place the path to \bin in PATH variable
 
 9. apply the following command to make the exported .mp4 from OpenShot into faststart (web-ready) - moov atom gets moved to start of .mp4  
-ffmpeg -i openshot-export.mp4 -acodec copy -vcodec copy -movflags faststart yt-upload.mp4
+- ffmpeg -i openshot-export.mp4 -acodec copy -vcodec copy -movflags faststart yt-upload.mp4  
+or with all audio streams removed...
+- ffmpeg -i openshot-export.mp4 -an -vcodec copy -movflags faststart yt-upload.mp4
 
 10. upload yt-upload.mp4 on YouTube, configure meta data appropriately
 
